@@ -1,21 +1,26 @@
 import React from "react";
+import {AffairType} from "./HW2";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from "./Affairs.module.css";
 
 type AffairPropsType = {
     // key не нужно типизировать
-    affair: any // need to fix any
-    deleteAffairCallback: any // need to fix any
+    affair: AffairType
+    deleteAffairCallback: (_id: number) => void
 }
 
 function Affair(props: AffairPropsType) {
-    const deleteCallback = () => {};// need to fix
 
+const deleteCallback = () => {props.deleteAffairCallback(props.affair._id)}
     return (
-        <div>
-            // show some text
+        <div className={s.affair} >
+            <div>{props.affair.name}</div>
+           <div><SuperButton onClick={deleteCallback}>X</SuperButton></div>
 
-            <button onClick={deleteCallback}>X</button>
+            {/*<button onClick={deleteCallback}>X</button>*/}
         </div>
     );
 }
 
-export default Affair;
+export default Affair
+

@@ -1,3 +1,15 @@
 .App {
+    width: 500px;
+    margin: auto;
+    background-color: powderblue;
+    border: 1px solid gray;
+    padding: 20px;
+
+}
+h3 {
+    color: palevioletred;
+    text-align: center;
+}
+.error404{
 
 }

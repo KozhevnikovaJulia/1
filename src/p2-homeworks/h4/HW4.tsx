@@ -21,36 +21,32 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
+            <h3>homeworks 4</h3>
 
-            <div className={s.column}>
-                {/*should work (должно работать)*/}
+            <div className={`${s.column} ${s.blue}`}>
                 <SuperInputText
                     value={text}
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // className={s.blue} // проверьте, рабоет ли смешивание классов
+
                 />
 
-                {/*should work (должно работать)*/}
+
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
-                >
-                    delete {/*// название кнопки попадёт в children*/}
+                >  delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                {/*should work (должно работать)*/}
                 <SuperCheckbox
                     checked={checked}
-                    onChangeChecked={setChecked}
-                >
-                    some text {/*// этот текст попадёт в children*/}
+                    onChangeChecked={setChecked} >I like this button {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
-                {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox
+                    checked={checked}
+                    onChange={testOnChange}></SuperCheckbox>
             </div>
 
             <hr/>

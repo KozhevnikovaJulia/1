@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Message.module.css';
+import style from './Message2.module.css';
 
 
 type MessagePropsType = {
@@ -10,9 +10,8 @@ type MessagePropsType = {
 }
 
 
- function Message(props:MessagePropsType) {
+ function Message2(props:MessagePropsType) {
     return (
-        <div className={style.contaner}>
         <div className={style.message}>
             <div className={style.ava}>
                 <img src={props.avatar} />
@@ -22,7 +21,7 @@ type MessagePropsType = {
                 <div> {props.message}</div>
                 <div className={style.time}>{props.time}</div>
             </div>
-        </div>
+
 
 
 
@@ -31,4 +30,4 @@ type MessagePropsType = {
     );
 }
 
-export default Message;
+export default Message2;

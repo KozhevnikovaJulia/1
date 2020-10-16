@@ -1,13 +1,12 @@
 import React from "react";
 
-function AlternativeClock() {
-
-
+function Junior() {
     return (
         <div>
+          Junior Page
 
         </div>
     );
 }
 
-export default AlternativeClock;
+export default Junior;
