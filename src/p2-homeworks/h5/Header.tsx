@@ -1,15 +1,11 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import NavBar from "./NavBar";
 
 function Header() {
     return (
         <div>
-            <div>
-                <NavLink to="/junior" >Junior</NavLink>
-            </div>
-            <div>
-                <NavLink to="/preJunior" >PreJunior</NavLink>
-            </div>
+            <NavBar/>
+
 
         </div>
     );

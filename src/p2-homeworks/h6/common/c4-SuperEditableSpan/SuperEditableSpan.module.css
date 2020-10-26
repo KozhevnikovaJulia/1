@@ -1,0 +1,11 @@
+.superSpan {
+    width: 300px;
+    font-size: 14px;
+    padding: 6px 0 8px 10px;
+    border: 1px solid pink;
+    background: pink;
+    border-radius: 8px;
+    color: red;
+    
+}
+
