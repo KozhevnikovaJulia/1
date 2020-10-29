@@ -14,10 +14,13 @@ export default function NavBar() {
                     <Button onClick={() => setState(true)}>Menu</Button>
                     <Drawer anchor={'left'} open={state} onClose={() => setState(false)}>
                         <div className={s.item}>
+                            <NavLink to="/preJunior" activeClassName={s.active} >PreJunior</NavLink>
+                        </div>
+                        <div className={s.item}>
                             <NavLink to="/junior" activeClassName={s.active}>Junior</NavLink>
                         </div>
                         <div className={s.item}>
-                            <NavLink to="/preJunior" activeClassName={s.active} >PreJunior</NavLink>
+                            <NavLink to="/juniorPlus" activeClassName={s.active}>JuniorPlus</NavLink>
                         </div>
                     </Drawer>
                 </React.Fragment>
