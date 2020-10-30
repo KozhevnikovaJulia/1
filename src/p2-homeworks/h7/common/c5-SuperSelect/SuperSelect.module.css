@@ -1,0 +1,13 @@
+.select {
+    display: inline-block;
+    border: 1px black solid;
+    min-width: 100px;
+    min-height: 20px;
+    text-align: center;
+}
+.items {
+    width: 100px;
+    position: absolute;
+    border: 1px black solid;
+}
+

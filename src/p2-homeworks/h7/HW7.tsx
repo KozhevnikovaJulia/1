@@ -6,15 +6,17 @@ const arr = ["x", "y", "z"];
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1]);
+    const [check, setCheck]= useState(true)
 
     return (
         <div>
             <hr/>
-            homeworks 7
+            <h3>homeworks 7</h3>
 
             {/*should work (должно работать)*/}
             <div>
                 <SuperSelect
+               
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
@@ -26,6 +28,8 @@ function HW7() {
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
+                    check={check}
+                    setCheck={setCheck}
                 />
             </div>
 
