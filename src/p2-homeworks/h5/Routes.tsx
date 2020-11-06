@@ -9,11 +9,14 @@ export const PATH = {
     PRE_JUNIOR: "/pre-junior",
     // add paths
 }
+export let PRE_JUNIOR = "/preJunior"
+export let JUNIOR = "/junior"
+export let JUNIOR_PLUS = "/juniorPlus"
 
 function Routes() {
-    let PRE_JUNIOR ="/preJunior"
-    let JUNIOR = "/junior"
-    let JUNIOR_PLUS = "/juniorPlus"
+    // let PRE_JUNIOR ="/preJunior"
+    // let JUNIOR = "/junior"
+    // let JUNIOR_PLUS = "/juniorPlus"
     return (
         <div>
             {/*Switch выбирает первый подходящий роут*/}
