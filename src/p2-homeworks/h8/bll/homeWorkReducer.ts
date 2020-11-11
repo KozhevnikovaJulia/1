@@ -47,7 +47,7 @@ export const homeWorkReducer = (state: Array<initialStateObjType>, action: Actio
             return newState
         }
         case "CHECK-AGE-18": {
-            let filtredState = state.filter(el => el.age < action.age)
+            let filtredState = state.filter(el => el.age > action.age)
             return (filtredState)
         }
         default: throw new Error("I do not andastand this action.type!")

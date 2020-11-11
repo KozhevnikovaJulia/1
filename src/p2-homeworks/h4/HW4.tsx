@@ -49,12 +49,10 @@ function HW4() {
                     onChange={testOnChange}></SuperCheckbox>
             </div>
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperInputText/>*/}
             {/*<AlternativeSuperButton/>*/}
             {/*<AlternativeSuperCheckbox/>*/}
-            <hr/>
         </div>
     );
 }
