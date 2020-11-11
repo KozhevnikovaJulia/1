@@ -6,8 +6,7 @@ const arr = ["x", "y", "z"];
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1]);
-    const [check, setCheck]= useState(true)
-
+   
     return (
         <div>
             <hr/>
@@ -27,9 +26,7 @@ function HW7() {
                     name={"radio"}
                     options={arr}
                     value={value}
-                    onChangeOption={onChangeOption}
-                    check={check}
-                    setCheck={setCheck}
+                    onChangeOption={onChangeOption}                  
                 />
             </div>
 

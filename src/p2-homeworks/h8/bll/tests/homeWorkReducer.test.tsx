@@ -23,21 +23,21 @@ beforeEach(() => {
 });
 
 test("sort name up", () => {
-    const newState = homeWorkReducer(initialState, { type: "SORT-NAME-UP" });
+    const newState = homeWorkReducer(initialState, { type: "SORT-NAME", orientation: "up" });
 
     console.log(newState);
     expect(newState[0].name).toBe("Александр");
     expect(newState[5].name).toBe("Кот");
 });
 test("sort name down", () => {
-    const newState = homeWorkReducer(initialState, { type: "SORT-NAME-DOWN" });
+    const newState = homeWorkReducer(initialState, { type: "SORT-NAME", orientation: "down" });
     expect(newState[0].name).toBe("Кот");
     expect(newState[5].name).toBe("Александр");
 
 });
 test("check age 18", () => {
     const newState = homeWorkReducer(initialState, { type: "CHECK-AGE-18", age: 18 });
-    expect(newState.length).toBe(2);
+    expect(newState.length).toBe(4);
 });
 
 

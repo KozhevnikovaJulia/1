@@ -21,8 +21,8 @@ function HW8() {
         </div>
     )
  
-    const sortUp = () =>   setPeople(homeWorkReducer(initialPeople, {type: "SORT-NAME-UP"}))
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT-NAME-DOWN"}))
+    const sortUp = () =>   setPeople(homeWorkReducer(initialPeople, {type: "SORT-NAME", orientation: "up"}))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT-NAME", orientation: "down"}))
     const check18 = () => setPeople(homeWorkReducer(initialPeople, {type: "CHECK-AGE-18", age:18}))
     return (
         <div>
