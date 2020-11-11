@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/HomeworkIgnat/static/css/main.08e22642.chunk.css",
-    "main.js": "/HomeworkIgnat/static/js/main.b4d2f715.chunk.js",
-    "main.js.map": "/HomeworkIgnat/static/js/main.b4d2f715.chunk.js.map",
+    "main.css": "/HomeworkIgnat/static/css/main.28edebd6.chunk.css",
+    "main.js": "/HomeworkIgnat/static/js/main.e51a34b4.chunk.js",
+    "main.js.map": "/HomeworkIgnat/static/js/main.e51a34b4.chunk.js.map",
     "runtime-main.js": "/HomeworkIgnat/static/js/runtime-main.0f206183.js",
     "runtime-main.js.map": "/HomeworkIgnat/static/js/runtime-main.0f206183.js.map",
     "static/css/2.afc8fc2e.chunk.css": "/HomeworkIgnat/static/css/2.afc8fc2e.chunk.css",
-    "static/js/2.97c97805.chunk.js": "/HomeworkIgnat/static/js/2.97c97805.chunk.js",
-    "static/js/2.97c97805.chunk.js.map": "/HomeworkIgnat/static/js/2.97c97805.chunk.js.map",
+    "static/js/2.c0c722fa.chunk.js": "/HomeworkIgnat/static/js/2.c0c722fa.chunk.js",
+    "static/js/2.c0c722fa.chunk.js.map": "/HomeworkIgnat/static/js/2.c0c722fa.chunk.js.map",
     "index.html": "/HomeworkIgnat/index.html",
-    "precache-manifest.27123bfde07a9b777a520fac3c58703b.js": "/HomeworkIgnat/precache-manifest.27123bfde07a9b777a520fac3c58703b.js",
+    "precache-manifest.73bd00056c3f1d8685f3f065cc1da759.js": "/HomeworkIgnat/precache-manifest.73bd00056c3f1d8685f3f065cc1da759.js",
     "service-worker.js": "/HomeworkIgnat/service-worker.js",
     "static/css/2.afc8fc2e.chunk.css.map": "/HomeworkIgnat/static/css/2.afc8fc2e.chunk.css.map",
-    "static/css/main.08e22642.chunk.css.map": "/HomeworkIgnat/static/css/main.08e22642.chunk.css.map",
-    "static/js/2.97c97805.chunk.js.LICENSE.txt": "/HomeworkIgnat/static/js/2.97c97805.chunk.js.LICENSE.txt",
+    "static/css/main.28edebd6.chunk.css.map": "/HomeworkIgnat/static/css/main.28edebd6.chunk.css.map",
+    "static/js/2.c0c722fa.chunk.js.LICENSE.txt": "/HomeworkIgnat/static/js/2.c0c722fa.chunk.js.LICENSE.txt",
     "static/media/index.css": "/HomeworkIgnat/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.0f206183.js",
     "static/css/2.afc8fc2e.chunk.css",
-    "static/js/2.97c97805.chunk.js",
-    "static/css/main.08e22642.chunk.css",
-    "static/js/main.b4d2f715.chunk.js"
+    "static/js/2.c0c722fa.chunk.js",
+    "static/css/main.28edebd6.chunk.css",
+    "static/js/main.e51a34b4.chunk.js"
   ]
 }
