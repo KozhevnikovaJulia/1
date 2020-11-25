@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/HomeworkIgnat/static/css/main.28edebd6.chunk.css",
-    "main.js": "/HomeworkIgnat/static/js/main.1cc8281d.chunk.js",
-    "main.js.map": "/HomeworkIgnat/static/js/main.1cc8281d.chunk.js.map",
+    "main.css": "/HomeworkIgnat/static/css/main.a4108627.chunk.css",
+    "main.js": "/HomeworkIgnat/static/js/main.c3acdff3.chunk.js",
+    "main.js.map": "/HomeworkIgnat/static/js/main.c3acdff3.chunk.js.map",
     "runtime-main.js": "/HomeworkIgnat/static/js/runtime-main.0f206183.js",
     "runtime-main.js.map": "/HomeworkIgnat/static/js/runtime-main.0f206183.js.map",
     "static/css/2.afc8fc2e.chunk.css": "/HomeworkIgnat/static/css/2.afc8fc2e.chunk.css",
-    "static/js/2.cb7fdf85.chunk.js": "/HomeworkIgnat/static/js/2.cb7fdf85.chunk.js",
-    "static/js/2.cb7fdf85.chunk.js.map": "/HomeworkIgnat/static/js/2.cb7fdf85.chunk.js.map",
+    "static/js/2.72440c0c.chunk.js": "/HomeworkIgnat/static/js/2.72440c0c.chunk.js",
+    "static/js/2.72440c0c.chunk.js.map": "/HomeworkIgnat/static/js/2.72440c0c.chunk.js.map",
     "index.html": "/HomeworkIgnat/index.html",
-    "precache-manifest.25929aa71d32f03e5821f3c10b9a0481.js": "/HomeworkIgnat/precache-manifest.25929aa71d32f03e5821f3c10b9a0481.js",
+    "precache-manifest.1660c7d4a16b321e25121eca6b6685f6.js": "/HomeworkIgnat/precache-manifest.1660c7d4a16b321e25121eca6b6685f6.js",
     "service-worker.js": "/HomeworkIgnat/service-worker.js",
     "static/css/2.afc8fc2e.chunk.css.map": "/HomeworkIgnat/static/css/2.afc8fc2e.chunk.css.map",
-    "static/css/main.28edebd6.chunk.css.map": "/HomeworkIgnat/static/css/main.28edebd6.chunk.css.map",
-    "static/js/2.cb7fdf85.chunk.js.LICENSE.txt": "/HomeworkIgnat/static/js/2.cb7fdf85.chunk.js.LICENSE.txt",
+    "static/css/main.a4108627.chunk.css.map": "/HomeworkIgnat/static/css/main.a4108627.chunk.css.map",
+    "static/js/2.72440c0c.chunk.js.LICENSE.txt": "/HomeworkIgnat/static/js/2.72440c0c.chunk.js.LICENSE.txt",
+    "static/media/Wedges-3s-200px (1).svg": "/HomeworkIgnat/static/media/Wedges-3s-200px (1).0e6d959b.svg",
     "static/media/index.css": "/HomeworkIgnat/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.0f206183.js",
     "static/css/2.afc8fc2e.chunk.css",
-    "static/js/2.cb7fdf85.chunk.js",
-    "static/css/main.28edebd6.chunk.css",
-    "static/js/main.1cc8281d.chunk.js"
+    "static/js/2.72440c0c.chunk.js",
+    "static/css/main.a4108627.chunk.css",
+    "static/js/main.c3acdff3.chunk.js"
   ]
 }
