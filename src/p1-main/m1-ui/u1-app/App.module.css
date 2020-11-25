@@ -1,9 +1,8 @@
-.App {
-    width: 700px;
+.App {  
     margin: auto;
-    background-color: powderblue;
+    background-color: #b0e0e6;
     border: 1px solid gray;
-    padding: 20px;
+    padding: 30px;
 
 }
 h3 {
