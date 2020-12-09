@@ -6,6 +6,7 @@ type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectE
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
     
+   
     options?: Array<string>
     onChangeOption?: (option: string) => void
 }
