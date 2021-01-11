@@ -1,4 +1,9 @@
-const initState = "red"
+// const initState = "red"
+const initState = {themeColor:"red"}
+
+export type initStateType = {
+    themeColor: string
+}
 
 type ActionType = ChangeThemeActionType
 
@@ -7,14 +12,12 @@ type ChangeThemeActionType = {
                     theme: string                  
                 }
 
-export const themeReducer = (state: string = initState, action: ActionType): string => { 
+export const themeReducer = (state: initStateType = initState, action: ActionType): initStateType=> { 
     switch (action.type) {
         case "CHANGE-THEME": {
             let stateCopy = state
-            stateCopy = action.theme;
+            stateCopy = {...state, themeColor: action.theme }           
             return stateCopy;
-
-            // return action.theme;
         }
         default: return state;
     }

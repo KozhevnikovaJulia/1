@@ -16,7 +16,7 @@ const rootReducer = combineReducers({
 
 const initialGlobalState = {  
     loading: {loading: false},
-    theme: "durk"
+    theme: {themeColor:"durk"}
 }
 
 export const storyBookStore = createStore(rootReducer, initialGlobalState as AppStoreType);
