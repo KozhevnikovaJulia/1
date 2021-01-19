@@ -10,23 +10,17 @@ function Request() {
     const [response, setResponse] = useState<string>(""); 
 
     const buttonOnClick = () => {
-        axios.get("https://neko-cafe-back.herokuapp.com/auth/test, body: {success: true},")
-            .then((response) => {
-                setResponse(response.data)
-            })
-            .catch((error) => {
-                setResponse(error.response.data.error)
-            })
 
-        axios.post("https://neko-cafe-back.herokuapp.com/auth/test, body: {success: true},", {success: checked})
+      return  axios.post("https://neko-cafe-back.herokuapp.com/auth/test", {success: checked})
             .then((response) => {
-                setResponse(response.data)
+                setResponse(response.data.errorText)
             })
             .catch((error) => {
-                setResponse(error.response.data.error)
-                console.log(error.response.data.error)
+                console.log( {...error} )
+                console.log( error.response ? error.response.data.errorText : error.message )                
             })
     }
+
 
     const changeChecked = () => {
         setChecked(!checked)
